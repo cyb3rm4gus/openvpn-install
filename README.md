@@ -19,10 +19,22 @@ curl -O https://raw.githubusercontent.com/cyb3rm4gus/openvpn-install/master/open
 chmod +x openvpn-install.sh
 ```
 
+or for endpoint in chained VPN scheme:
+
+```bash
+curl -O https://raw.githubusercontent.com/cyb3rm4gus/openvpn-install/master/endpoint-vpn-install.sh
+chmod +x endpoint-vpn-install.sh
+```
+
 Then run it:
 
 ```sh
 ./openvpn-install.sh
+
+# OR
+
+./endpoint-vpn-install.sh
+
 ```
 
 You need to run the script as root and have the TUN module enabled.
